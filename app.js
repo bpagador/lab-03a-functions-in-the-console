@@ -8,12 +8,11 @@ let countries_list = [cambodia, france, mexico, peru, fiji, 'middle earth'];
 
 console.log (countries_list)
 
-for (let i = 0; i < countries_list.length; i++) {
-    console.log(countries_list[i])
-}
-
 function logOutThings() {
     console.log('Here are your', countries_list.length, 'countries!' );
+    for (let i = 0; i < countries_list.length; i++) {
+        console.log(countries_list[i])
+    }
 }
 
 logOutThings()
