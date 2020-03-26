@@ -17,6 +17,9 @@ function logOutThings() {
 
 logOutThings()
 
-if (countries_list.population < 10) {
+if (countries_list[i].population_mil < 5) {
     console.log ('Small population')
+}
+if else (countries_list.population_mil > 10) {
+    console.log 
 }
